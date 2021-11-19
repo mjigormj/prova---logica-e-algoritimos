@@ -1,0 +1,121 @@
+algoritimo
+declare N1, N2, N3, tot
+escreva "Digite as notas"
+leia N1, N2, N3
+tot = (N1 + N2 + N3)/3.0
+escreva "a média das notas é = ", tot
+fim_algoritimo.
+
+=======================================
+
+3)
+
+ALGORITIMO 
+DECLARE N1, N2, N3 , P1, P2, P3, tot
+
+ESCREVA "Digite 3 notas"
+LEIA N1, N2, N3
+ESCREVA "Escreva seus pesos"
+LEIA P1, P2, P3
+
+tot = (N1*P1 + N2*P2 + N3*P3)/(P1+P2+P3)
+
+ESCREVA "A MP é igual a ", tot
+
+FIM_ALGORITIMO
+
+======================================
+
+4)
+
+ALGORITIMO
+
+DECLARE sal, nSal
+
+ESCREVA "Digite o salario atual "
+LEIA sal
+
+nSal = sal + ((sal/100)*25)
+
+ESCREVA "O salario ajustado é igualk a ", nSal
+FIM_ALGORITIMO
+
+=======================================
+
+
+
+5)
+
+ALGORITIMO
+
+DECLARE sal, perc, nSal
+
+ESCREVA "Digite o salario atual "
+LEIA sal
+ESCREVA "Digite o percentual de aumento"
+LEIA perc
+
+perc = (sal/100.0)*perc
+nSal = sal + perc
+
+ESCREVA "O aumento é de R$", perc
+ESCREVA "O salario ajustado é igual a R$", nSal
+
+FIM_ALGORITIMO
+
+
+======================================
+
+6)
+
+ALGORITIMO
+
+DECLARE sal, nSal, grt, imp
+
+ESCREVA "Digite o salario atual "
+LEIA sal
+
+grt = ((sal/100.0)*5.0)
+imp = ((sal/100.0)*7.0)
+
+nSal = sal+grt-imp
+
+
+
+ESCREVA "O salario a receber é igual a R$", nSal
+
+FIM_ALGORITIMO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
